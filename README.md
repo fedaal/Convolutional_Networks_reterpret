@@ -30,6 +30,8 @@ If you are using a Jupyter notebook
 |------------|----------|
 | model_1| (0.85) |
 | model_2 | (0.75) |
+## method
+* feature mapping using using a Deconvolutional Network
 
 ## Contributing
 ### Authors
