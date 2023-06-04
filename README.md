@@ -12,13 +12,14 @@ This project was developed using Google Colab. To run the code, you will need:
 * torchvision
 * matplotlib
 * numpy
+* sklearn
 
  ```sh
-pip install torch torchvision matplotlib numpy
+pip install torch torchvision matplotlib numpy sklearn
   ```
 If you are using a Jupyter notebook
  ```sh
- !pip install torch torchvision matplotlib numpy
+ !pip install torch torchvision matplotlib numpy sklearn
   ```
   ## Project Structure
   The entire project is contained within a single Jupyter notebook: 'main.ipynb'. This notebook includes all the steps from data loading, preprocessing, model training, evaluation, and results visualization for the feature mapping.
@@ -26,8 +27,8 @@ If you are using a Jupyter notebook
 ## Models
 | Model name | Accuracy |
 |------------|----------|
-| model_1| (0.85) |
-| model_2 | (0.75) |
+| model1| (0.8002) |
+| model2 | (0.7873) |
 ## method
 * feature mapping using using a `Deconvolutional` Network
 
