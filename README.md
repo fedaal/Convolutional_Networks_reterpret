@@ -14,6 +14,25 @@ This project was developed using Google Colab. To run the code, you will need:
 * torchvision
 * matplotlib
 * numpy
+
  ```sh
-  conda install captum -c pytorch
+pip install torch torchvision matplotlib numpy
   ```
+If you are using a Jupyter notebook
+ ```sh
+ !pip install torch torchvision matplotlib numpy
+  ```
+  ## Project Structure
+  The entire project is contained within a single Jupyter notebook: 'main.ipynb'. This notebook includes all the steps from data loading, preprocessing, model training, evaluation, and results visualization for the feature mapping.
+
+## Models
+| Model name | Accuracy |
+|------------|----------|
+| model_1| (0.85) |
+| model_2 | (0.75) |
+
+## Contributing
+### Authors
+- [Qatrlnada Almrzoq]()
+- [Feda Alashwal]()
+
